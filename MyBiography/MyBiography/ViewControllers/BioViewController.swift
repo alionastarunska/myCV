@@ -15,6 +15,12 @@ class BioViewController: UIViewController, UITableViewDelegate, UITableViewDataS
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        tableView.reloadWithAnimations()
+    }
+    
     let data = [("Name", "Aliona"),
                 ("Address", "03057, Kiev, Ukraine, Metalistiv street 8"),
                 ("Phone", "+380973440337"),

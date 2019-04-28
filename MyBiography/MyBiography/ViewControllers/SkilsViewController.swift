@@ -10,12 +10,16 @@ import UIKit
 
 class SkilsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
  
-
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
-    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        tableView.reloadWithAnimations()
+    }
     
     let data = [("Programming languages","Swift, C, C++ HTML"),
                 ("Version-control system","Git"),
@@ -46,8 +50,4 @@ class SkilsViewController: UIViewController, UITableViewDataSource, UITableViewD
             return cell
         }
     }
-    
-    
-    
-
 }

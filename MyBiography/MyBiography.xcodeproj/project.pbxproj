@@ -22,6 +22,7 @@
 		96ECCC7F2261455400B6A57B /* SkilsImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ECCC7E2261455400B6A57B /* SkilsImageTableViewCell.swift */; };
 		96ECCC812261F4A200B6A57B /* SkilsTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ECCC802261F4A200B6A57B /* SkilsTextTableViewCell.swift */; };
 		96ECCC832263913E00B6A57B /* HobbiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ECCC822263913E00B6A57B /* HobbiesViewController.swift */; };
+		96ECCC852263A8A600B6A57B /* UITableView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ECCC842263A8A600B6A57B /* UITableView+Animations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		96ECCC7E2261455400B6A57B /* SkilsImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkilsImageTableViewCell.swift; sourceTree = "<group>"; };
 		96ECCC802261F4A200B6A57B /* SkilsTextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkilsTextTableViewCell.swift; sourceTree = "<group>"; };
 		96ECCC822263913E00B6A57B /* HobbiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbiesViewController.swift; sourceTree = "<group>"; };
+		96ECCC842263A8A600B6A57B /* UITableView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Animations.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		964E13A722607A5300085306 /* MyBiography */ = {
 			isa = PBXGroup;
 			children = (
+				96ECCC842263A8A600B6A57B /* UITableView+Animations.swift */,
 				964E13A822607A5300085306 /* AppDelegate.swift */,
 				96ECCC73226109F900B6A57B /* ViewControllers */,
 				96ECCC7422610A1E00B6A57B /* Storyboards */,
@@ -313,6 +316,7 @@
 				96ECCC6E2260EEE200B6A57B /* BioTableViewCell.swift in Sources */,
 				96ECCC7622611AD900B6A57B /* EducationViewController.swift in Sources */,
 				96ECCC70226107FB00B6A57B /* BioViewController.swift in Sources */,
+				96ECCC852263A8A600B6A57B /* UITableView+Animations.swift in Sources */,
 				96ECCC832263913E00B6A57B /* HobbiesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,10 +498,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aliona.MyBiography;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aliona.MyCV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -511,10 +515,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aliona.MyBiography;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aliona.MyCV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -11,6 +11,11 @@ import UIKit
 class HobbiesViewController: UIViewController {
 
     @IBOutlet var circles: [UIView]!
+    @IBOutlet var petsSection: [UIView]!
+    @IBOutlet var travelingSection: [UIView]!
+    @IBOutlet var codingSection: [UIView]!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -29,23 +34,40 @@ class HobbiesViewController: UIViewController {
             }, completion: nil)
             i+=1
         }
-//        centerView.layer.transform = CATransform3DMakeScale(0, 0, 1)
-//        centerView.alpha = 0
-//
-//        UIView.animate(withDuration: 1, delay: 0.4, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.7, options: .curveEaseInOut, animations: { [weak self] in
-//            self?.centerView.alpha = 1
-//            self?.centerView.layer.transform = CATransform3DMakeScale(1, 1, 1)
-//        }, completion: nil)
+        
+        i = 0
+        for circle in petsSection {
+            circle.layer.transform = CATransform3DMakeScale(0, 0, 1)
+            circle.alpha = 0
+            UIView.animate(withDuration: 1.0, delay: 1.4 + 0.15*Double(i), usingSpringWithDamping: 0.55, initialSpringVelocity: 0.1, options: .curveEaseInOut, animations: {
+                circle.alpha = 1
+                circle.layer.transform = CATransform3DMakeScale(1, 1, 1)
+            }, completion: nil)
+            i+=1
+        }
+        
+        i = 0
+        for circle in travelingSection {
+            circle.layer.transform = CATransform3DMakeScale(0, 0, 1)
+            circle.alpha = 0
+            UIView.animate(withDuration: 1.0, delay: 2.4 + 0.15*Double(i), usingSpringWithDamping: 0.55, initialSpringVelocity: 0.1, options: .curveEaseInOut, animations: {
+                circle.alpha = 1
+                circle.layer.transform = CATransform3DMakeScale(1, 1, 1)
+            }, completion: nil)
+            i+=1
+        }
+        
+        i = 0
+        for circle in codingSection {
+            circle.layer.transform = CATransform3DMakeScale(0, 0, 1)
+            circle.alpha = 0
+            UIView.animate(withDuration: 1.0, delay: 3.4 + 0.15*Double(i), usingSpringWithDamping: 0.55, initialSpringVelocity: 0.1, options: .curveEaseInOut, animations: {
+                circle.alpha = 1
+                circle.layer.transform = CATransform3DMakeScale(1, 1, 1)
+            }, completion: nil)
+            i+=1
+        }
+        
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
