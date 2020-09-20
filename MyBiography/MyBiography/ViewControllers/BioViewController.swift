@@ -26,7 +26,7 @@ class BioViewController: UIViewController, UITableViewDelegate, UITableViewDataS
                 ("Phone", "+380973440337"),
                 ("E-mail", "aliona.starunska@gmail.com"),
                 ("Date of birth", "9 January 2001"),
-                ("Age", "18"),
+                ("Age", "19"),
                 ("Home Town", "Zhytomyr"),
                 ("Nationality", "Ukrainian")]
 

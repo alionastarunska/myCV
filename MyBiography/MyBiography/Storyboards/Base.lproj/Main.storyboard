@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="o50-U5-uVs">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="o50-U5-uVs">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -650,7 +648,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mc" translatesAutoresizingMaskIntoConstraints="NO" id="WFQ-9M-SqG">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cats" translatesAutoresizingMaskIntoConstraints="NO" id="WFQ-9M-SqG">
                                         <rect key="frame" x="22.5" y="474" width="100" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="0b4-Mj-s8n"/>
@@ -683,7 +681,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mydog" translatesAutoresizingMaskIntoConstraints="NO" id="m4p-5Y-8cI">
-                                        <rect key="frame" x="211" y="556" width="100" height="100.00000000000045"/>
+                                        <rect key="frame" x="211" y="556" width="100" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="Qrm-t0-MOX"/>
                                             <constraint firstAttribute="width" constant="100" id="bea-av-3qO"/>
@@ -702,7 +700,7 @@
                                         <color key="shadowColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <size key="shadowOffset" width="0.0" height="0.0"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mc" translatesAutoresizingMaskIntoConstraints="NO" id="E3v-vo-0rr">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pereval" translatesAutoresizingMaskIntoConstraints="NO" id="E3v-vo-0rr">
                                         <rect key="frame" x="26.5" y="711" width="100" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="STU-kk-Lci"/>
@@ -714,7 +712,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dogs" translatesAutoresizingMaskIntoConstraints="NO" id="A8h-qA-ZEE">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mount" translatesAutoresizingMaskIntoConstraints="NO" id="A8h-qA-ZEE">
                                         <rect key="frame" x="287.5" y="711" width="100" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="2Cw-gc-Fei"/>
@@ -726,8 +724,8 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat" translatesAutoresizingMaskIntoConstraints="NO" id="Fca-aJ-v2J">
-                                        <rect key="frame" x="100" y="795" width="100" height="100.00000000000045"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="korost" translatesAutoresizingMaskIntoConstraints="NO" id="Fca-aJ-v2J">
+                                        <rect key="frame" x="100" y="795" width="100" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="Pm6-x0-eoI"/>
                                             <constraint firstAttribute="width" constant="100" id="V5n-bV-K22"/>
@@ -738,8 +736,8 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mydog" translatesAutoresizingMaskIntoConstraints="NO" id="d6J-0N-cOf">
-                                        <rect key="frame" x="214" y="795" width="100" height="100.00000000000045"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sea" translatesAutoresizingMaskIntoConstraints="NO" id="d6J-0N-cOf">
+                                        <rect key="frame" x="214" y="795" width="100" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="FVE-Gk-ckp"/>
                                             <constraint firstAttribute="height" constant="100" id="wyx-5V-BXy"/>
@@ -751,7 +749,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat" translatesAutoresizingMaskIntoConstraints="NO" id="f4B-8s-A1R">
-                                        <rect key="frame" x="103" y="556" width="100" height="100.00000000000045"/>
+                                        <rect key="frame" x="103" y="556" width="100" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="3dX-VG-TIk"/>
                                             <constraint firstAttribute="width" constant="100" id="GEa-pa-Uxe"/>
@@ -762,28 +760,16 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mc" translatesAutoresizingMaskIntoConstraints="NO" id="Z3C-uY-9TL">
-                                        <rect key="frame" x="34.5" y="950" width="100" height="100"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="100" id="BQE-Cp-mJA"/>
-                                            <constraint firstAttribute="width" constant="100" id="MtK-j4-cH7"/>
-                                        </constraints>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <integer key="value" value="50"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coding" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="llu-Yv-zQs">
-                                        <rect key="frame" x="160.5" y="945" width="93" height="39"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friends" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="llu-Yv-zQs">
+                                        <rect key="frame" x="160" y="945" width="94" height="39"/>
                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="28"/>
                                         <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <size key="shadowOffset" width="0.0" height="0.0"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dogs" translatesAutoresizingMaskIntoConstraints="NO" id="rY2-Uq-6CW">
-                                        <rect key="frame" x="279.5" y="950" width="100" height="100"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="friends1" translatesAutoresizingMaskIntoConstraints="NO" id="rY2-Uq-6CW">
+                                        <rect key="frame" x="280" y="950" width="100" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="RkI-63-V3o"/>
                                             <constraint firstAttribute="height" constant="100" id="Y22-8k-dwF"/>
@@ -794,8 +780,20 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mydog" translatesAutoresizingMaskIntoConstraints="NO" id="iue-BG-wCb">
-                                        <rect key="frame" x="214" y="1029" width="100" height="100.00000000000045"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="friends2" translatesAutoresizingMaskIntoConstraints="NO" id="Z3C-uY-9TL">
+                                        <rect key="frame" x="34" y="950" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="BQE-Cp-mJA"/>
+                                            <constraint firstAttribute="width" constant="100" id="MtK-j4-cH7"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <integer key="value" value="50"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="friends3" translatesAutoresizingMaskIntoConstraints="NO" id="iue-BG-wCb">
+                                        <rect key="frame" x="214" y="1029" width="100" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="F1q-2L-mV9"/>
                                             <constraint firstAttribute="height" constant="100" id="hAQ-lK-gQN"/>
@@ -806,8 +804,8 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat" translatesAutoresizingMaskIntoConstraints="NO" id="Afl-0R-Ws6">
-                                        <rect key="frame" x="100" y="1029" width="100" height="100.00000000000045"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="friends4" translatesAutoresizingMaskIntoConstraints="NO" id="Afl-0R-Ws6">
+                                        <rect key="frame" x="100" y="1029" width="100" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="Sui-CV-iJK"/>
                                             <constraint firstAttribute="height" constant="100" id="hjA-6h-ax6"/>
@@ -819,6 +817,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                 </subviews>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="Afl-0R-Ws6" secondAttribute="bottom" constant="40" id="0H6-iP-f7s"/>
                                     <constraint firstAttribute="trailing" secondItem="m4p-5Y-8cI" secondAttribute="trailing" constant="103" id="0vP-dw-UTe"/>
@@ -881,6 +880,9 @@
                                     <constraint firstItem="nlf-dA-m4J" firstAttribute="top" secondItem="TzP-eK-YNg" secondAttribute="bottom" id="woh-Tx-hkb"/>
                                     <constraint firstItem="fqE-2k-cHg" firstAttribute="top" secondItem="f4B-8s-A1R" secondAttribute="bottom" constant="55" id="zXQ-k7-2UY"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="aeT-ME-9bb" appends="YES" id="n5p-aC-qPV"/>
+                                </connections>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -899,6 +901,7 @@
                     </view>
                     <size key="freeformSize" width="414" height="2000"/>
                     <connections>
+                        <outlet property="scrollView" destination="UJ8-9T-Z9Q" id="3tx-tK-CgJ"/>
                         <outletCollection property="circles" destination="yv6-MD-21N" collectionClass="NSMutableArray" id="Dv2-Sz-4OH"/>
                         <outletCollection property="circles" destination="E7p-wA-ILu" collectionClass="NSMutableArray" id="8nW-A8-GlW"/>
                         <outletCollection property="circles" destination="s3m-93-HS6" collectionClass="NSMutableArray" id="Q80-OF-nUl"/>
@@ -925,9 +928,15 @@
                         <outletCollection property="travelingSection" destination="A8h-qA-ZEE" collectionClass="NSMutableArray" id="pCr-7c-Cr1"/>
                         <outletCollection property="travelingSection" destination="Fca-aJ-v2J" collectionClass="NSMutableArray" id="kLN-7z-Srh"/>
                         <outletCollection property="travelingSection" destination="d6J-0N-cOf" collectionClass="NSMutableArray" id="gTY-lS-RxD"/>
+                        <segue destination="7T5-MA-JNV" kind="presentation" id="o4o-b2-B7G"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iuH-Xc-3ld" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="aeT-ME-9bb">
+                    <connections>
+                        <action selector="TapAction:" destination="ixs-Rm-8MB" id="n1k-ov-SXZ"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1908.6956521739132" y="175.44642857142856"/>
         </scene>
@@ -1077,12 +1086,12 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SkilsImageTableViewCell" rowHeight="142" id="q5H-aG-607" customClass="SkilsImageTableViewCell" customModule="MyBiography" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="55.5" width="414" height="142"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="q5H-aG-607" id="rJP-sn-6Hh">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="q5H-aG-607" id="rJP-sn-6Hh">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="142"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="prog" translatesAutoresizingMaskIntoConstraints="NO" id="l97-ee-9Rj">
-                                                    <rect key="frame" x="24" y="0.0" width="366" height="125"/>
+                                                    <rect key="frame" x="24" y="0.0" width="366" height="142"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="125" id="Yfo-Rj-eIF"/>
                                                     </constraints>
@@ -1192,25 +1201,63 @@
             </objects>
             <point key="canvasLocation" x="369.56521739130437" y="816.96428571428567"/>
         </scene>
+        <!--Hobbies Photo View Controller-->
+        <scene sceneID="1CY-PN-1CH">
+            <objects>
+                <viewController storyboardIdentifier="HobbiesPhotoViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7T5-MA-JNV" customClass="HobbiesPhotoViewController" customModule="MyBiography" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HNK-c1-sRN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="friends2" translatesAutoresizingMaskIntoConstraints="NO" id="JRE-CC-Xab">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="JRE-CC-Xab" secondAttribute="bottom" id="Mx9-n4-oEU"/>
+                            <constraint firstItem="JRE-CC-Xab" firstAttribute="trailing" secondItem="1TS-S3-F0b" secondAttribute="trailing" id="Vlg-CR-iGZ"/>
+                            <constraint firstItem="JRE-CC-Xab" firstAttribute="top" secondItem="HNK-c1-sRN" secondAttribute="top" id="jb7-Bw-2aa"/>
+                            <constraint firstItem="JRE-CC-Xab" firstAttribute="leading" secondItem="1TS-S3-F0b" secondAttribute="leading" id="sdv-0m-cxu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1TS-S3-F0b"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="JRE-CC-Xab" id="GKw-lF-WqS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hKE-g7-ewo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2747.826086956522" y="56.919642857142854"/>
+        </scene>
     </scenes>
     <resources>
         <image name="1182328361homeimg" width="125" height="75"/>
         <image name="429777-mountains" width="150" height="86"/>
-        <image name="IMG_7876" width="1732" height="2309"/>
+        <image name="IMG_7876" width="959" height="853"/>
         <image name="Music-icon" width="100" height="100"/>
         <image name="Team-Bonding-Activities-in-Corporate-Outing" width="221" height="100"/>
         <image name="background" width="640" height="1136"/>
         <image name="cat" width="3024" height="3027"/>
+        <image name="cats" width="3024" height="4032"/>
         <image name="dogs" width="350" height="350"/>
         <image name="family-friendly-camping" width="150" height="100"/>
         <image name="film" width="75" height="43"/>
+        <image name="friends1" width="1044" height="621"/>
+        <image name="friends2" width="2316" height="3088"/>
+        <image name="friends3" width="2436" height="3246"/>
+        <image name="friends4" width="3024" height="4032"/>
         <image name="interests" width="200" height="46"/>
-        <image name="mc" width="300" height="294"/>
+        <image name="korost" width="4032" height="3024"/>
+        <image name="mount" width="3024" height="4032"/>
         <image name="mydog" width="3024" height="3027"/>
         <image name="needle" width="100" height="100"/>
         <image name="painting" width="100" height="100"/>
+        <image name="pereval" width="3024" height="4032"/>
         <image name="pets" width="100" height="100"/>
         <image name="prog" width="360" height="240"/>
         <image name="roler" width="75" height="75"/>
+        <image name="sea" width="3024" height="4032"/>
     </resources>
 </document>

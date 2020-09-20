@@ -21,7 +21,8 @@ class EducationViewController: UIViewController, UITableViewDataSource, UITableV
         tableView.reloadWithAnimations()
     }
     
-    let data = [("2018 - present", "National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute\nFaculty of electronics\nMicro and nanosystem technology", "NTUU_KPI_logo"),
+    let data = [("2019 - present", "National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute\"\nInstrument-making faculty\nAutomation and computer-integrated technologies", "NTUU_KPI_logo"),
+                ("2018 - 2019", "National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute\"\nFaculty of electronics\nMicro and nanosystem technology", "NTUU_KPI_logo"),
                 ("2016 - 2018", "Zhytomyr Agrotechnical College\nDepartment \"Electrification and Information Systems\"\nMaintenance of software systems and complexes", "zhatk"),
                 ("2007-2016", "Zhytomyr general secondary school of 1-3 degrees number 16", "zosh")]
     

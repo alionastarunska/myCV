@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B730D202517A55F00D54958 /* HobbiesPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B730D1F2517A55F00D54958 /* HobbiesPhotoViewController.swift */; };
 		964E13A922607A5300085306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964E13A822607A5300085306 /* AppDelegate.swift */; };
 		964E13AE22607A5300085306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964E13AC22607A5300085306 /* Main.storyboard */; };
 		964E13B022607A5600085306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964E13AF22607A5600085306 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B730D1F2517A55F00D54958 /* HobbiesPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HobbiesPhotoViewController.swift; sourceTree = "<group>"; };
 		964E13A522607A5300085306 /* MyBiography.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBiography.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		964E13A822607A5300085306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		964E13AD22607A5300085306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				96ECCC6F226107FB00B6A57B /* BioViewController.swift */,
 				96ECCC7522611AD900B6A57B /* EducationViewController.swift */,
 				96ECCC822263913E00B6A57B /* HobbiesViewController.swift */,
+				4B730D1F2517A55F00D54958 /* HobbiesPhotoViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B730D202517A55F00D54958 /* HobbiesPhotoViewController.swift in Sources */,
 				96ECCC7D226144D900B6A57B /* SkilsViewController.swift in Sources */,
 				96ECCC7A2261224800B6A57B /* EducationTableViewCell.swift in Sources */,
 				96ECCC812261F4A200B6A57B /* SkilsTextTableViewCell.swift in Sources */,

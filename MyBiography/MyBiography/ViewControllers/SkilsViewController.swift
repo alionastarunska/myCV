@@ -23,7 +23,7 @@ class SkilsViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     let data = [("Programming languages","Swift, C, C++ HTML"),
                 ("Version-control system","Git"),
-                ("Project management system","Trello"),
+                ("Management tools","Trello, Jira"),
                 ("Development Software","Xcode, Sourcetree, Dev C++, Visual Studio"),
                 ("Languages","Ukrainian, Russian - Native;\nEnglish - Intermediate;\nPolish, German - Basic.")]
 

@@ -14,7 +14,17 @@ class HobbiesViewController: UIViewController {
     @IBOutlet var petsSection: [UIView]!
     @IBOutlet var travelingSection: [UIView]!
     @IBOutlet var codingSection: [UIView]!
+    @IBOutlet weak var scrollView: UIScrollView!
     
+    @IBAction func TapAction(_ sender: UITapGestureRecognizer) {
+        let location = sender.location(in: scrollView)
+        guard let image = (petsSection + travelingSection + codingSection).compactMap({$0 as? UIImageView}).first(where: {$0.frame.contains(location)})?.image else { return }
+        let id = String(describing: HobbiesPhotoViewController.self)
+        if let vc = storyboard?.instantiateViewController(withIdentifier: id) as? HobbiesPhotoViewController {
+            vc.image = image
+            present(vc, animated: true, completion: nil)
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
